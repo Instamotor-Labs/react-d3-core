@@ -9,8 +9,9 @@ var Yaxis = require('../../lib').Yaxis;
 var Legend = require('../../lib').Legend;
 var Grid = require('../../lib').Grid;
 var Label = require('../../lib').Label;
+var createClass = require('create-react-class');
 
-var BlankChart = React.createClass({
+var BlankChart = createClass({
 
   render: function() {
 

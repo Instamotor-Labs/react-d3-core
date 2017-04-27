@@ -2,8 +2,9 @@
 
 var React = require('react');
 var Svg = require('../../lib/container/svg.js');
+var createClass = require('create-react-class');
 
-var ClickSvg = React.createClass({
+var ClickSvg = createClass({
   getInitialState: function() {
     return {
       expend: false

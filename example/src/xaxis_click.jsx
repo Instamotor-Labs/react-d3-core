@@ -3,6 +3,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Xaxis = require('../../lib/index.js').Xaxis;
+var createClass = require('create-react-class');
 
 (function() {
   // load your general data, for building xDomain.
@@ -29,7 +30,7 @@ var Xaxis = require('../../lib/index.js').Xaxis;
     // set your label name
     xLabel = "Month";
 
-  var ClickAxis = React.createClass({
+  var ClickAxis = createClass({
     getInitialState: function() {
       return {
         expend: false

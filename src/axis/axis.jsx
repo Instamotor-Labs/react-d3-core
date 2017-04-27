@@ -3,9 +3,9 @@
 import {
   default as React,
   Component,
-  PropTypes
 } from 'react';
 
+import PropTypes from 'prop-types';
 import D3Axis from 'd3-axis';
 import D3Selection from 'd3-selection'
 import ReactFauxDOM from 'react-faux-dom';

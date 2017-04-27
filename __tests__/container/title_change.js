@@ -2,8 +2,8 @@
 
 var React = require('react');
 var Title = require('../../lib/container/title.js');
-
-var ChangeTitle = React.createClass({
+var createClass = require('create-react-class')
+var ChangeTitle = createClass({
   getInitialState: function() {
     return {
       expend: false

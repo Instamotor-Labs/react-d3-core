@@ -3,11 +3,12 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Chart = require('../../lib/index').Chart;
+var createClass = require('create-react-class');
 
 // Example
 (function() {
 
-  var AnimateChart = React.createClass({
+  var AnimateChart = createClass({
     getInitialState: function() {
       return this.props;
     },

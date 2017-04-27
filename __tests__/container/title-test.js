@@ -4,7 +4,7 @@ import {
 
 import {
   default as TestUtils
-} from 'react-addons-test-utils';
+} from 'react-dom/test-utils';
 
 const d3 = require('d3');
 const expect = require('expect');
