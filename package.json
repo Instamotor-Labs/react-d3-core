@@ -1,5 +1,5 @@
 {
-  "name": "react-d3-core",
+  "name": "@instamotor-labs/react-d3-core",
   "version": "1.3.9",
   "description": "react-d3 chart core component",
   "main": "./lib/index.js",
@@ -66,6 +66,6 @@
     "d3-axis": "^0.3.0",
     "d3-scale": "^0.6.4",
     "d3-selection": "^0.7.0",
-    "react-faux-dom": "^3.1.0"
+    "react-faux-dom": "^4.1.0"
   }
 }
